@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default rounded borders and increase the bottom margin */
+        
+        .navbar {
+            margin-bottom: 50px;
+            border-radius: 0;
+        }
+        /* Remove the jumbotron's default bottom margin */
+        
+        .jumbotron {
+            margin-bottom: 0;
+            background-color: #8385ff;
+        }
+        /* Add a gray background color and some padding to the footer */
+        
+        footer {
+            background-color: #8385ff;
+            padding: 25px;
+        }
+        
+        body {
+            background-color: aqua;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Portfolio</h1>
+            <p>Liam Taylor</p>
+            <img src="ACTP0009.jpg" style="width: 150px; height: 150px;">
+        </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Stores</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <table style="width:100%">
+        <tr>
+            <th>Date</th>
+            <th>Assignment</th>
+            <th>Github Repository</th>
+            <th>Date Completed</th>
+        </tr>
+        <tr>
+            <td>11-15 Feb</td>
+            <td>In Classroom Course</br>
+                </br>Done All Exercises</br>Done All Practises</td>
+            <td><button style="position:centre;margin: 30px"><a href="https://github.com/LiamTaylor2/Soccer">Soccer League</a></button><button style="position: centre"><a href="https://github.com/LiamTaylor2/Other-Code">Other Code</a></button></td>
+            <td>19 Feb</td>
+        </tr>
+        <tr>
+            <td>18-23 Feb</td>
+            <td>Java Book</td>
+            <td>Github Repository</td>
+            <td>doe</td>
+        </tr>
+        <tr>
+            <td>25 Feb-1Mar</td>
+            <td>OCA Book</td>
+            <td>Github Repository</td>
+            <td>doe</td>
+        </tr>
+    </table>
+    </div><br><br>
+
+    <footer class="container-fluid text-center">
+        <p>Online Store Copyright</p>
+        <form class="form-inline">Get deals:
+            <input type="email" class="form-control" size="50" placeholder="Email Address">
+            <button type="button" class="btn btn-danger">Sign Up</button>
+        </form>
+    </footer>
+
+</body>
+
+</html>
